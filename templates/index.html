@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction of House Price In BOSTON</title>
+</head>
+<style type="text/css">
+    title{
+        text-align: right;
+    }
+    lable{
+        width: 150px;
+        display: inline-block;
+        text-align: right;
+        margin: auto;
+        justify-content: center;
+    }
+</style>
+<body style="background-color: rgba(180, 119, 69, 0.651);" >
+    <h1>  BOSTON House Price Predction</h1>
+    <form method="GET" action="/predict_charges">
+
+        <lable>CRIM:</lable>
+        <input type="text" name ="CRIM">
+        </select>
+        
+        <br>
+        <br>
+        <lable>ZN:</lable>
+        <input type="text" name ="ZN">
+        </select>
+
+        <br>
+        <br>
+        <lable>INDUS:</lable>
+        <input type="text" name ="INDUS">
+        </select>
+
+        <br>
+        <br>
+        <lable>CHAS:</lable>
+        <input type="text" name ="CHAS">
+        </select>
+        <br>
+        <br>
+        <lable>NOX:</lable>
+        <input type="text" name ="NOX">
+        </select>
+        <br>
+        <br>
+        <lable>RM:</lable>
+        <input type="text" name ="RM">
+        </select>
+        <br>
+        <br>
+        <lable>AGE:</lable>
+        <input type="text" name ="AGE">
+        </select>
+        <br>
+        <br>
+        <lable>DIS:</lable>
+        <input type="text" name ="DIS">
+        </select>
+        <br>
+        <br>
+        <lable>RAD:</lable>
+        <input type="text" name ="RAD">
+        </select>
+        <br>
+        <br>
+        <lable>TAX:</lable>
+        <input type="text" name ="TAX">
+        </select>
+        <br>
+        <br>
+        <lable>PTRATIO:</lable>
+        <input type="text" name ="PTRATIO">
+        </select>
+        <br>
+        <br>
+        <lable>B:</lable>
+        <input type="text" name ="B">
+        </select>
+        <br>
+        <br>
+        <lable>LSTAT:</lable>
+        <input type="text" name ="LSTAT">
+        </select>
+        <br>
+        <br>
+
+    
+                       <input type="submit" value="SUBMIT">
+    
+    
+
+        </style>
+    
+        <br>
+        <p>Your House Price In Boston <b> {{ prediction }} /- Rs.</b> Only (Lakh)</p>
+
+        
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
